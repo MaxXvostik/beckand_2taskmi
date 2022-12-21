@@ -14,6 +14,7 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/hello", handlers.Hello)
+	router.POST("/registration", handlers.Registracion)
 
 	router.Run()
 
